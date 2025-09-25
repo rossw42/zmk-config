@@ -1,6 +1,6 @@
 if SHIELD_ROSSW42_3X4
 
 config ZMK_KEYBOARD_NAME
-    default "3x4 Extended Macropad"
+    default "3x4 Macropad"
 
 endif
