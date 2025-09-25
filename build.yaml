@@ -4,3 +4,4 @@ include:
     shield: rossw42_3x4
     snippet: zmk-usb-logging
     snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
