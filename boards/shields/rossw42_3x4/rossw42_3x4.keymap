@@ -1,0 +1,22 @@
+/*
+ * Copyright (c) 2024 rossw42
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &kp N0    &kp A     &kp M     &kp N8    &kp V
+                &kp N1    &kp B     &kp P     &kp N9    &kp F1
+                &kp N2    &kp C     &kp I     &kp C     &kp F2
+            >;
+        };
+    };
+};
