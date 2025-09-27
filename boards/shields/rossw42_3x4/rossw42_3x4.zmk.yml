@@ -1,0 +1,11 @@
+file_format: "1"
+id: rossw42_3x4
+name: 3x4 Macropad
+type: shield
+url: ""
+requires: [nice_nano_v2]
+features:
+  - keys
+  - encoder
+  - display
+siblings: []

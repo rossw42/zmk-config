@@ -12,4 +12,17 @@ config SSD1306
 config ZMK_DISPLAY
     default y
 
+if ZMK_STUDIO
+
+config ZMK_STUDIO_TRANSPORT_BLE
+    default y
+
+config ZMK_STUDIO_TRANSPORT_USB
+    default y
+
+config ZMK_STUDIO_LOCK_ON_DISCONNECT
+    default n
+
+endif # ZMK_STUDIO
+
 endif
