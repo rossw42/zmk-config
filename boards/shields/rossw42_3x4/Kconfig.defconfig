@@ -3,4 +3,13 @@ if SHIELD_ROSSW42_3X4
 config ZMK_KEYBOARD_NAME
     default "3x4 Macropad"
 
+config I2C
+    default y
+
+config SSD1306
+    default y
+
+config ZMK_DISPLAY
+    default y
+
 endif
