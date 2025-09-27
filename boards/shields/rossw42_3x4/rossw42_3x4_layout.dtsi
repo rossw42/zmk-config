@@ -10,6 +10,7 @@
     rossw42_3x4_layout: rossw42_3x4_layout {
         compatible = "zmk,physical-layout";
         display-name = "3x4 Macropad Layout";
+        transform = <&default_transform>;
 
         keys  //                     w   h    x    y     rot   rx   ry
             = <&key_physical_attrs 100 100    0    0       0    0    0>
